@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>90s League - SJC</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/pure-min.css">
+<link rel="stylesheet" type="text/css" href="css/parciais.css">
+</head>
+<body>
+<div class="row">
+
+	<div class="header">
+		<div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img class="cartola-liga-capa__logo" ng-src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_1/flamula/44/30/35/003134420160726163035"
+					 src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_1/flamula/44/30/35/003134420160726163035">
+			</a>
+		</div>
+		<br>
+		  <br>
+		    <br>
+		<h1>Parciais 1.2</h1>
+		<h2>90s League<span class="team_rodada"></span> <span id="mercado_status"></span></h2>
+		Ordenar por: 
+		<button id="ordenacaoParcial" type="button" class="btn btn-success">Parcial Rodada</button>
+		<button id="ordenacaoPontuacaoGeral" type="button" class="btn btn-primary">Geral Campeonato</button>
+	</div>
+	<div class="tabela">
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:100%" id="myProgress">
+				<div class="w3-container w3-blue w3-round-xlarge" id="myBar"></div>
+			</div>
+		</div>
+
+		<table id="tabela-pontos" class="pure-table">
+			<thead>
+		        <tr>
+		            <th>#</th>
+		            <th>Cartola participante</th>
+		            <th>Qtd</th>
+		            <th>Parcial</th>
+		            <!-- <th>M&eacutedia</th> -->
+		            <th>Anterior</th>
+		            <th>Nova</th>
+		        </tr>
+		    </thead>
+		    <tbody>
+			<tr class="pure-table-odd">
+		    </tbody>
+		</table>
+	</div>
+	<script src="js/jquery-3.0.0.min.js"></script>
+	<script src="js/parciais-v2.js" type="text/javascript"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

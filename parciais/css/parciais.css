@@ -1,0 +1,75 @@
+.header {
+  background:#FFFFFF;
+  font-family:Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing:0.05em;
+  margin:0 auto;
+  width: 768px;
+  padding:1em;
+  text-align:left;
+}
+
+.header h1 {
+  font-size:200%;
+  font-weight:100;
+}
+
+.header h2 {
+  color:#666666;
+  font-size:125%;
+  font-weight:100;
+}
+
+.tabela {
+  margin-left:auto;
+  margin-right:auto;
+  width: 768px;
+  padding-left:1em;
+  padding-right:1em;
+}
+
+span#mercado_status {
+	font-size:90%;
+	font-weight:bold;
+	text-decoration: underline;
+	padding-left: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#4B4B4B;
+  font-weight:bold;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+}
+
+#myBar {
+    width: 1%;
+    height: 1px;
+    background-color: green;
+}
+
+.progress {
+  width: 543px;
+}
+
+.w3-round-xlarge {
+  border-radius: 12px
+}
+
+.w3-blue {
+  color: #fff!important;
+  background-color: #2196F3!important
+}
+
+.w3-container {
+  padding: 0.01em
+}
+
+.w3-light-grey {
+  color: #000!important;
+  background-color: #f1f1f1!important
+}
+
+
